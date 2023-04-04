@@ -10,7 +10,7 @@ import Sidebar from './components/Sidebar';
 
 function HolaMundo(nombre) {
   var presentacion = (
-    <h2>Hola soy {nombre}</h2>
+    <h2>Hola soy la leyenda{nombre}</h2>
   );
   return presentacion;
 }
