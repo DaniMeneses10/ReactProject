@@ -7,6 +7,7 @@ import Bowls from './components/Bowls'
 import Header from './components/Header';
 import Slider from './components/Slider';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 function HolaMundo(nombre) {
   var presentacion = (
@@ -40,9 +41,9 @@ function App() {
         </section>
 
         <Sidebar />
-      </div>
-
-
+        <div className='clearfix'></div>
+      </div>{/*End div center */}
+      <Footer/>
     </div>
   );
 }
